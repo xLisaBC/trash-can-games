@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strategy Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: #1a1a1a;
+            font-family: monospace;
+        }
+        #gameCanvas {
+            border: 2px solid #333;
+            image-rendering: pixelated;
+            image-rendering: crisp-edges;
+        }
+        #debug {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #0f0;
+            background: rgba(0,0,0,0.7);
+            padding: 10px;
+            font-size: 12px;
+        }
+    </style>
+  <script type="module" crossorigin src="/trash-can-games/assets/index-qYtNZ1x7.js"></script>
+</head>
+<body>
+    <div id="debug"></div>
+    <canvas id="gameCanvas"></canvas>
+</body>
+</html>
